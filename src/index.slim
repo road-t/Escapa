@@ -1,0 +1,51 @@
+doctype html
+html lang="ru"
+  head
+    meta charset="UTF-8"
+    title Escape
+    script src="assets/js/jquery.js" type="text/javascript"
+    script src="assets/js/app.js?v=1.2.0.2" type="text/javascript"
+    link href="assets/css/style.css" rel="stylesheet" type="text/css"
+    link rel="icon" type="image/png" href="/assets/images/misc/favicon.png"
+  body
+    #screen height="700" width="700"
+      #hud
+        div
+          | Время:&nbsp;
+          span#time 00.00
+        div
+          | Бонус:&nbsp;
+          span#bonus 00000
+        div
+          |Рекорд:&nbsp;
+          span#hiscore 00000
+      #cover
+        #message
+          #box
+          #rating
+            h4 Лучшие игроки
+            table
+              thead
+                tr
+                  th
+                  th Игрок
+                  th Рекорд
+              tbody#records
+          p#click_notice Кликни, чтобы продолжить
+        #options
+          #title Уровень сложности:
+          p#easy Лайтово
+          p#normal Норм
+          p#hard Хардкор
+          p#insane Безумие
+      #start
+        a href="http://got.vg" target="_blank"
+          #gotvglogo
+        a href="https://www.razerzone.ru/" target="_blank"
+          #razerlogo
+        #escapelogo
+        #click Кликни, чтобы начать
+        #copyright
+          got.VG &copy; 2015-2016.&nbsp;
+          span#cpr_notice Все права защищены.
+      #version

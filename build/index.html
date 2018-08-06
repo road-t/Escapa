@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Escape</title>
+    <script src="assets/js/jquery.js" type="text/javascript"></script>
+    <script src="assets/js/app.js?v=1.2.0.2" type="text/javascript"></script>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/images/misc/favicon.png" rel="icon" type="image/png" />
+  </head>
+  <body>
+    <div height="700" id="screen" width="700">
+      <div id="hud">
+        <div>
+          Время:&nbsp;<span id="time">00.00</span>
+        </div>
+        <div>
+          Бонус:&nbsp;<span id="bonus">00000</span>
+        </div>
+        <div>
+          Рекорд:&nbsp;<span id="hiscore">00000</span>
+        </div>
+      </div>
+      <div id="cover">
+        <div id="message">
+          <div id="box"></div>
+          <div id="rating">
+            <h4>
+              Лучшие игроки
+            </h4>
+            <table>
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>
+                    Игрок
+                  </th>
+                  <th>
+                    Рекорд
+                  </th>
+                </tr>
+              </thead>
+              <tbody id="records"></tbody>
+            </table>
+          </div>
+          <p id="click_notice">
+            Кликни, чтобы продолжить
+          </p>
+        </div>
+        <div id="options">
+          <div id="title">
+            Уровень сложности:
+          </div>
+          <p id="easy">
+            Лайтово
+          </p>
+          <p id="normal">
+            Норм
+          </p>
+          <p id="hard">
+            Хардкор
+          </p>
+          <p id="insane">
+            Безумие
+          </p>
+        </div>
+      </div>
+      <div id="start">
+        <a href="http://got.vg" target="_blank">
+          <div id="gotvglogo"></div>
+        </a><a href="https://www.razerzone.ru/" target="_blank">
+          <div id="razerlogo"></div>
+        </a>
+        <div id="escapelogo"></div>
+        <div id="click">
+          Кликни, чтобы начать
+        </div>
+        <div id="copyright">
+          <got class="VG">&copy; 2015-2016.&nbsp;</got><span id="cpr_notice">Все права защищены.</span>
+        </div>
+      </div>
+      <div id="version"></div>
+    </div>
+  </body>
+</html>
